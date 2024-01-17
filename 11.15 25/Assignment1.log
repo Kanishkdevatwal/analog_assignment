@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  17 JAN 2024 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  17 JAN 2024 15:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1342,34 +1342,34 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 64--95
+Underfull \hbox (badness 10000) in paragraph at lines 64--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--95
+Underfull \hbox (badness 10000) in paragraph at lines 64--97
 
  []
 
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<figs/fig1.png, id=29, 409.7709pt x 314.3745pt>
+<figs/fig1.png, id=28, 409.7709pt x 314.3745pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 132.
+Package pdftex.def Info: figs/fig1.png  used on input line 133.
 (pdftex.def)             Requested size: 341.43306pt x 261.9573pt.
-<figs/fig2.png, id=31, 409.7709pt x 314.3745pt>
+<figs/fig2.png, id=30, 409.7709pt x 314.3745pt>
 File: figs/fig2.png Graphic file (type png)
 <use figs/fig2.png>
-Package pdftex.def Info: figs/fig2.png  used on input line 140.
+Package pdftex.def Info: figs/fig2.png  used on input line 141.
 (pdftex.def)             Requested size: 341.43306pt x 261.9573pt.
  [2 <./figs/fig1.png> <./figs/fig2.png>] (./Assignment1.aux)
 Package rerunfilecheck Info: File `Assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30370 strings out of 476025
- 600568 string characters out of 5790018
+ 30369 strings out of 476025
+ 600555 string characters out of 5790018
  1876388 words of memory out of 5000000
  50145 multiletter control sequences out of 15000+600000
  576060 words of font info for 155 fonts, out of 8000000 for 9000
@@ -1382,10 +1382,10 @@ e/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Assignment1.pdf (2 pages, 144064 bytes).
+Output written on Assignment1.pdf (2 pages, 144081 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
