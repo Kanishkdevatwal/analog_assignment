@@ -26,5 +26,10 @@ plt.annotate('', xy=arrow_start, xytext=arrow_end,
              arrowprops=dict(facecolor='purple', arrowstyle='<->'))
 plt.text(0, 0.5,"$A$", verticalalignment='bottom', horizontalalignment='right', color='purple')
 
+arrow_start = (0, 1.05)
+arrow_end = (7, 1.05)
+plt.annotate('', xy=arrow_start, xytext=arrow_end,
+             arrowprops=dict(facecolor='purple', arrowstyle='<-'))
+plt.text(3, 0.95,"$V$", verticalalignment='bottom', horizontalalignment='right', color='purple')
 
 plt.show()
