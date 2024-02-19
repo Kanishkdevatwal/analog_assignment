@@ -60,79 +60,62 @@ A SONAR system fixed in a submarine operates at a frequency 40.0 kHz. An enemy s
 
 \textbf{Solution}:\\
 
+\begin{table}[ht]
+    \centering
+    \def\arraystretch{1.5}
+    \input{tables/table1.tex}
+   \caption{Input Parameters}
+   \label{tab:11.15.25}
+\end{table}
 
-\begin{tabular}{|c|c|c|}
-   
-   \hline
-   Parameter & Description & Value\\
-   \hline
-   $V $& Speed of sound in water & 1450m/s\\
-   \hline 
-   $V_e$ & Speed of enemy submarine & 100m/s\\
-   \hline 
-   $Vrel$ & Relative velocity between both submarine & 1550m/s\\
-   \hline
-   $f $& Frequency of SONAR wave & 40kHz\\ 
-   \hline
-   $y\brak{x,t}$ & Equation of SONAR wave & $A\sin\brak{2\pi ft-\frac{2\pi}{\lambda}x+\phi}$\\
-   \hline
-   $\lambda$ & Wavelength of SONAR wave & 3.625cm\\
-    \hline
-   $ f' $& Frequency observed by enemy submarine & 42.76kHz\\
-   \hline
-   $\lambda_2$ & Wavelength of reflected wave & 3.157cm\\
-   \hline 
-   $T=\frac{1}{f'}$ & Time period of reflected wave & 23.38s\\
-   \hline
-  $ y_2\brak{x,t}$ & Equation of reflected wave as observed from submarine& $A\sin\brak{2\pi f''t-\frac{2\pi}{\lambda_2}x+\phi}$\\
-   \hline
-   
-\end{tabular}   
-\\
-\\
-\\
-Let us assume that the wave is reflected completely from enemy submarine.
+Let us assume that the wave is reflected completely from enemy submarine.\\
+
+
+From \tabref{tab:11.15.25} :
 
 \begin{align}
 Vrel&=V+V_e\\
 f'&=Vrel/\lambda\\
 &=\brak{\frac{V+Ve}{V}}f\\
 &= \brak{\frac{1450+100}{1450}}40\\
-&=42.76kHz
+\implies f' &=42.76kHz
 \end{align}
 
 \begin{align}
 \lambda_2&=T\brak{V-V_e}\\
 &=\brak{\frac{V-V_e}{f'}}\\
 f''&=V/\lambda_2\\
-&=\brak{\frac{V}{V-V_e}}f'
+\implies f'' &=\brak{\frac{V}{V-V_e}}f'\\
+\therefore f''&=45.92kHz
 \end{align}
-\\
-\begin{tabular}{|c|c|c|}
-   \hline
-   Parameter & Description & Value\\
-   \hline
-   $f''= \brak{\frac{V}{V-V_e}}f'$& Frequency of reflected wave & 45.93kHz\\
-   \hline
-   
-\end{tabular}
+
+
+
+
+
+
+
 \newpage
 Let us assume that amplitude of both waves is $1cm$.
 
 \begin{figure}[h]
-   
-    \includegraphics[width=120mm]{figs/fig1.png}\\
-     \centering
-    {Fig. 1}
-  
+    \centering
+    \includegraphics[width=\columnwidth]{figs/fig1.png}\\
+    \caption{Graph of SONAR and reflected waves}
+    \label{tab:11.15.25.1}
 \end{figure}
 
-\begin{figure}[h]
-    
-    \includegraphics[width=120mm]{figs/fig2.png}\\
-     \centering
-    {Fig. 2}
-\end{figure}
+\vspace{0.1cm}
+	
+	$A$ : SONAR submarine
+
+	$B$ : Enemy submarine
+	
+	Blue graph : SONAR wave
+
+	Orange  graph : Reflected wave
+
+
 
 \end{document}
 
